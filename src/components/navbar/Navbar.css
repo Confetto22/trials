@@ -1,0 +1,72 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem 1.7rem;
+    background-color: #005245;
+    /* position: fixed;
+    width: 100%;
+    z-index: 99; */
+    /* background-color: green; */
+    /* border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255); */
+}
+.logolink{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#churchLogo{
+    width: 160px;
+}
+#menuBt{
+    font-size: 1.6rem;
+}
+.menuList{
+    display: none;
+}
+.callBt{
+    display: none;
+}
+@media only screen and (min-width:768px){
+    .menuList{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        /* justify-content: space-around; */
+        /* background-color: red; */
+        /* width: 100%; */
+    }
+    .menuList a{
+        text-decoration: none;
+        list-style-type: none;
+        color: #fff;
+        transition: .3s ease-in-out;
+        /* background-color: red; */
+        padding: .1rem .5rem;
+    }
+    .menuList a:hover{
+        /* border-bottom: 1px solid var(--main-color); */
+        color: var(--main-color);
+        transform: translateY(-4px);
+    }
+    #menuBt{
+        display: none;
+    }
+    .callBt{
+        display: block;
+        padding: .8rem 1rem;
+        color: black;
+        cursor: pointer;
+        border: none;
+        background-color: var(--main-color);
+        border-radius: .3rem;
+
+    }
+}
+@media only screen and (min-width:900px){
+    .menuList{
+        gap: 5rem;
+    }
+}

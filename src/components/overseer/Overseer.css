@@ -1,0 +1,143 @@
+.overseer {
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: var(--main-font);
+
+}
+
+.overseerCard {
+    position: relative;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overseerPic {
+    width: 90%;
+}
+
+.overseerName {
+    background-color: var(--secondary-color);
+    color: black;
+    position: absolute;
+    padding: 1.6rem 1rem;
+    font-size: large;
+    bottom: 0;
+    left: 0;
+    /* font-family: "DM Sans"; */
+    font-weight: 800;
+}
+
+.welcome_text {
+    /* font-family: "DM Sans", sans-serif; */
+
+}
+
+.paragraphs {
+    border-left: 2px solid var(--secondary-color);
+    padding-left: 1.5rem;
+}
+
+.welcome_heading {
+    font-weight: 800;
+
+}
+
+.first_paragraph {
+    margin-top: 1rem;
+}
+
+.second_paragraph {
+    text-align: right;
+}
+
+.overseerBt {
+    border: none;
+    background-color: var(--secondary-color);
+    /* font-family: "DM Sans"; */
+    font-weight: 600;
+    font-size: .9rem;
+    padding: 1.2rem 1rem;
+    margin-top: 2rem;
+    font-family: var(--main-font);
+    /* border: 1px solid var(--secondary-color); */
+    color: black;
+}
+
+
+
+@media only screen and (min-width:500px){
+    .overseerPic {
+            /* aspect-ratio: 1/1;
+            object-fit: cover; */
+        }
+        .overseerCard{
+            width: 60%;
+            /* background-color: rebeccapurple; */
+            align-self: center;
+        }
+}
+
+@media only screen and (min-width:768px) {
+    .overseer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .overseerCard {
+        /* background-color: rebeccapurple; */
+        width: 80%;
+    }
+
+    .overseerPic {
+        /* aspect-ratio: 3/4; */
+        /* object-fit: cover; */
+    }
+
+    .welcome_text {
+        /* background-color: red; */
+        width: 100%;
+        padding: 2rem 0;
+        padding-right: 4rem;
+    }
+
+    .overseerBt {
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 2rem;
+        transition: .3s ease-in-out;
+    }
+
+    .overseerBt:hover {
+        width: 80%;
+        cursor: pointer;
+        background-color: #d39103;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .overseerCard {
+        /* background-color: rebeccapurple; */
+        width: 80%;
+    }
+
+    .overseerPic {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    .welcome_text {
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .welcome_text {
+        line-height: 2rem;
+    }
+}

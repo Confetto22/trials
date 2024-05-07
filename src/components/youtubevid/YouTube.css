@@ -1,0 +1,7 @@
+.ytVideo{
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+    max-width: 500px;
+    max-height: 300px;
+}

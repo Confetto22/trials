@@ -1,0 +1,37 @@
+.about_heading{
+    margin-bottom: 1rem;
+}
+#about_card{
+    
+    border: 1px solid var(--secondary-color);
+    max-width:300px ;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: black; */
+    gap: .4rem;
+    border-radius: .4rem;
+    transition: .3s ease-in-out;
+    
+}
+#about_card:hover{
+    background-color: var(--secondary-color);
+    color: black;
+}
+.cardIcon{
+    background-color: #fff;
+    padding: .7rem;
+    border-radius: 50%;
+    /* width: 50px; */
+}
+
+
+.cardTitle{
+    font-size: 1.5rem;
+}
+.card_desc{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+}

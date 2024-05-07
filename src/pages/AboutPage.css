@@ -1,0 +1,75 @@
+.about{
+    font-family: var(--main-font);
+}
+.introduction{
+    padding: 3rem 1.4rem;
+}
+.aboutImg{
+    width: 100%;
+    border-radius: .2rem;
+    margin-bottom: 2rem;
+}
+.statements{
+    /* background-color: rgba(255, 217, 0, 0.534); */
+}
+.statements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.our_beliefs{
+    padding: 2rem;
+}
+.our_beliefs h2{
+    text-align: center;
+    font-size: 2rem;
+}
+@media only screen and (min-width:768px){
+    .introduction{
+        display: flex;
+        /* align-items: center; */
+        gap: 2rem;
+        align-items: center;
+        /* background-color: rebeccapurple; */
+    }
+    .aboutImg{
+        width: 45%;
+        aspect-ratio: 1/1;
+        margin: auto;
+        object-fit: cover;
+    }
+    .about_intro{
+        border-left: 2px solid var(--secondary-color);
+        padding-left: 1.6rem;
+    }
+    .statements{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .our_beliefs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width:900px){
+    .introduction_box{
+        display: flex;
+        justify-content: center;
+        /* background-color: rebeccapurple; */
+        align-self: center;
+        
+    }
+    .aboutImg{
+        max-width: 45%;
+    }
+    .introduction{
+        width: 70%;
+    }
+}
