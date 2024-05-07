@@ -1,7 +1,13 @@
+import comingSoon from "../../public/photos/03092022_rorozoa_10.jpg";
+import Navbar from "../components/navbar/Navbar";
+import Footer from "../components/footer/Footer";
+
 const Gallery = () => {
   return (
     <>
-      <h2>Visit Us</h2>
+      <Navbar />
+      <img src={comingSoon} alt="" className="comingSoon" />
+      <Footer />
     </>
   );
 };

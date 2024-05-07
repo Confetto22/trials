@@ -2,12 +2,14 @@ import CardEvent from "../components/upcomingevents/CardEvent";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import { Link } from "react-router-dom";
-// import "../components/upcomingevents/UpcomingEvents.css";
+import mainevent from "../assets/restorationhour.jpg";
+import event3 from "../assets/businesssummit.jpg";
+import event4 from "../assets/graceexploits.jpg";
 
 const allEvents = [
   {
     id: 1,
-    flyer: "../../../public/photos/restorationhour.jpg",
+    flyer: mainevent,
     venue: "Mystery Temple",
     time: "07:30AM - 10:45AM",
     name: "Restoration Hour Service",
@@ -22,7 +24,7 @@ const allEvents = [
   },
   {
     id: 2,
-    flyer: "../../public/photos/businesssummit.jpg",
+    flyer: event3,
     venue: "Mystery Temple",
     time: "06:00PM - 08:45PM",
     name: "Business Summit",
@@ -37,7 +39,7 @@ const allEvents = [
   },
   {
     id: 3,
-    flyer: "../../public/photos/graceexploits.jpg",
+    flyer: event4,
     venue: "Mystery Temple",
     time: "08:00AM & 06:00PM",
     name: "2 Days Of Grace To Do Exploits",
@@ -72,7 +74,7 @@ const Events = () => {
   return (
     <div className="eventsPage">
       <Navbar />
-      <p className="partName">
+      <p id="partName">
         {" "}
         <Link to="/" className="page">
           Home

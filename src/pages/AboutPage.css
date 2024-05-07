@@ -1,6 +1,11 @@
 .about{
     font-family: var(--main-font);
 }
+.about #partName{
+    padding: 0 1rem;
+    padding-top: 2rem;
+    
+}
 .introduction{
     padding: 3rem 1.4rem;
 }

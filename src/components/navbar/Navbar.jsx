@@ -44,9 +44,12 @@ const Navbar = () => {
         </Link>
       </ul>
 
-      <button className="callBt">
-        <i className="fa-solid fa-phone" id="make_call"></i>
-      </button>
+      <a href="tel:233207991214">
+        <button className="callBt">
+          <i className="fa-solid fa-phone" id="make_call"></i>
+        </button>
+      </a>
+
       <i className="fa-solid fa-bars " id="menuBt"></i>
     </nav>
   );

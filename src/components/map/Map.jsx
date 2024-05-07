@@ -11,6 +11,7 @@ const Map = () => {
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
       className="map"
+      id="map"
     ></iframe>
   );
 };

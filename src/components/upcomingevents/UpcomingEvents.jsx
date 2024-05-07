@@ -1,11 +1,13 @@
 import "./UpcomingEvents.css";
 import { Link } from "react-router-dom";
 import CardEvent from "./CardEvent";
+import event1 from "../../assets/restorationhour.jpg";
+import event2 from "../../assets/wordtheatre.jpg";
 
 const events = [
   {
     id: 1,
-    flyer: "../../../public/photos/restorationhour.jpg",
+    flyer: event1,
     venue: "Mystery Temple",
     time: "07:30AM - 10:45AM",
     name: "Restoration Hour Service",
@@ -16,7 +18,7 @@ const events = [
   },
   {
     id: 2,
-    flyer: "../../../public/photos/wordtheatre.jpg",
+    flyer: event2,
     venue: "Mystery Temple",
     time: "07:30AM - 10:45AM",
     name: "Restoration Hour Service",
@@ -52,8 +54,9 @@ const UpcomingEvents = () => {
       <p className="upcoming_heading">Upcoming Events</p>
 
       <div className="preview">{events.map(createEventCard)}</div>
-      <Link to="/events">
-        <button className="see_all_events">see all events</button>
+      <Link to="/events" className="livelink_container">
+        see all events
+        <i className="fa-regular fa-eye"></i>
       </Link>
     </section>
   );

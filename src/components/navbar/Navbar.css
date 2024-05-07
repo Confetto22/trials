@@ -62,7 +62,13 @@
         border: none;
         background-color: var(--main-color);
         border-radius: .3rem;
-
+        border: 1px solid var(--main-color);
+        transition: .3s ease-in-out;
+    }
+    .callBt:hover{
+       opacity: .8;
+       transform: rotate(360deg);
+        
     }
 }
 @media only screen and (min-width:900px){
