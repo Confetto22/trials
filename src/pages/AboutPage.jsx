@@ -1,31 +1,32 @@
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 import Mission from "../components/mission/Mission";
-import altarPic from "../../public/photos/567A9715.jpg";
+import altarPic from "../assets/567A9715.jpg";
 import "./AboutPage.css";
 import AboutCard from "../components/mission/AboutCard";
 import Beliefs from "../components/beliefs/Beliefs";
 import { Link } from "react-router-dom";
-import visionpic from "../assets/binoculars.png";
-import missionpic from "../assets/target.png";
-import valuespic from "../assets/values.png";
+import visionIcon from "../assets/binoculars.png";
+import missionIcon from "../assets/target.png";
+import valuesIcon from "../assets/values.png";
+import Decrees from "../components/decrees/Decrees";
 
 const allstatements = [
   {
     id: 1,
-    icon: visionpic,
+    icon: visionIcon,
     title: "Our Vision",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem distinctio ab dolorem quibusdam aut repellendus alias fugit corrupti iste sapiente.",
+    desc: "To build a Kingdom Conscious, spirit filled, faith based, word centered, engracement, divine restoration and to multiply disciples.",
   },
   {
     id: 2,
-    icon: missionpic,
-    title: "Our Mision",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem distinctio ab dolorem quibusdam aut repellendus alias fugit corrupti iste sapiente.",
+    icon: missionIcon,
+    title: "Our Mision (5 I's)",
+    desc: "To Inspire, Insight, Impact, Impart and Invest",
   },
   {
     id: 3,
-    icon: valuespic,
+    icon: valuesIcon,
     title: "Core Values",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem distinctio ab dolorem quibusdam aut repellendus alias fugit corrupti iste sapiente.",
   },
@@ -66,9 +67,11 @@ const AboutPage = () => {
         <hr className="secDivide" />
 
         <div className="our_beliefs">
-          <h2>Our Beliefs</h2>
+          <h2>Statement Of Faith</h2>
+          <p className="we_believe">We believe:</p>
           <Beliefs />
         </div>
+        <Decrees />
       </section>
       <Footer />
     </>

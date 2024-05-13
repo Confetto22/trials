@@ -1,0 +1,94 @@
+.form_box.member{
+    margin-bottom: 2rem;
+}
+
+.dob label{
+    color: rgb(163, 163, 163);
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: small;
+}
+.bx-calendar{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.membership {
+    font-family: var(--main-font);
+}
+.membership_intro{
+    background-image: url('../../assets/large-group-fans-with-arms-raised-having-fun-music-concert-night.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.intro_content{
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.membership_heading{
+    margin-bottom: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    font-size: 6vw;
+    /* color: var(--main-color); */
+
+}
+.membership_quote{
+    /* color: var(--main-color); */
+    letter-spacing: .6px;
+    font-weight: 300;
+    color: #fff;
+    /* background-color: red; */
+    max-width: 400px;
+    /* padding-right: 7rem; */
+}
+.form_head{
+    /* margin-bottom: 2rem; */
+    letter-spacing: .6px;
+}
+.member_form{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+
+@media only screen and (min-width:500px){
+    .membership_intro{
+        height: 40vh;
+    }
+}
+
+/* @media only screen and (min-width:500px){
+
+} */
+
+@media only screen and (min-width:768px){
+    .member_form{
+        align-items: center;
+    }
+    .form_box.member{
+        width: 80%;
+    }
+    .intro_content{
+        align-items: center;
+    }
+    .membership_heading{
+        font-size: 5vw;
+    }
+    .badge{
+        width: 50px;
+    }
+    .membership_quote{
+        text-align: center;
+    }
+}

@@ -1,0 +1,32 @@
+.decrees{
+    background-image: url('../../assets/pexels-shelaghmurphy-1666816.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.decree_content{
+    background-color: #000000c9;
+    padding: 2rem;
+    color: var(--main-color);
+    /* font-family: var(--main-font); */
+}
+.decree_content h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 1.4px;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+.decree_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+.decree_list p{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    font-size: 1.2rem;
+    text-align: center;
+}

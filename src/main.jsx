@@ -21,7 +21,7 @@ import "./index.css";
 import About from "./pages/AboutPage";
 import Contact from "./pages/Contact";
 // import VisitUs from "./pages/VisitUs";
-import Gallery from "./pages/Gallery";
+import Membership from "./pages/Membership";
 import ViewDepartments from "./pages/ViewDepartments";
 
 const router = createBrowserRouter([
@@ -43,8 +43,8 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
   {
-    path: "/gallery",
-    element: <Gallery />,
+    path: "/membership",
+    element: <Membership />,
   },
   {
     path: "/join a department",

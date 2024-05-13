@@ -1,4 +1,4 @@
-import overseerPic from "../../../public/photos/567A0086.jpg";
+import overseerPic from "../../assets/567A0086.jpg";
 import "./Overseer.css";
 
 const OverSeer = () => {
@@ -6,7 +6,9 @@ const OverSeer = () => {
     <section className="overseer">
       <div className="overseerCard">
         <img src={overseerPic} className="overseerPic" />
-        <h5 className="overseerName">Apostle Dr. Cloudio</h5>
+        <h5 className="overseerName">
+          Apostle Dr. Cloudio <br /> phD
+        </h5>
       </div>
       <div className="welcome_text">
         <h3 className="welcome_heading">

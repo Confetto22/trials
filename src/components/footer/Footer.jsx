@@ -1,8 +1,8 @@
 import "./Footer.css";
-import churchLogo from "../../../public/photos/homlogo.webp";
+import churchLogo from "../../assets/homlogo.webp";
 // import Map from "../map/Map";
 import { Link } from "react-router-dom";
-import altarPic from "../../../public/photos/567A9715.jpg";
+import altarPic from "../../assets/567A9715.jpg";
 
 const Footer = () => {
   return (
@@ -85,8 +85,8 @@ const Footer = () => {
             <Link to="/contact">
               <li>Contact</li>
             </Link>
-            <Link to="/gallery">
-              <li>Gallery</li>
+            <Link to="/membership">
+              <li>Citizenship</li>
             </Link>
           </ul>
         </div>

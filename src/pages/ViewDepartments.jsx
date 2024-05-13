@@ -3,8 +3,8 @@ import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import { Link } from "react-router-dom";
 // import deptImg from "../../public/photos/567A9657.jpg";
-import cardBg from "../../public/photos/hero2.jpeg";
-import Akwaabapic from "../../public/photos/567A9657.jpg";
+import cardBg from "../assets/hero2.jpeg";
+import Akwaabapic from "../assets/567A9657.jpg";
 
 const departmentDetails = [
   {

@@ -2,55 +2,57 @@ import CardEvent from "../components/upcomingevents/CardEvent";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import { Link } from "react-router-dom";
-import mainevent from "../assets/restorationhour.jpg";
-import event3 from "../assets/businesssummit.jpg";
-import event4 from "../assets/graceexploits.jpg";
+import event1 from "../assets/restorationhour.jpg";
+import event2 from "../assets/businesssummit.jpg";
+import event3 from "../assets/graceexploits.jpg";
+
+// import "../components/upcomingevents/UpcomingEvents.css";
 
 const allEvents = [
   {
     id: 1,
-    flyer: mainevent,
+    flyer: event1,
     venue: "Mystery Temple",
     time: "07:30AM - 10:45AM",
     name: "Restoration Hour Service",
     liveStream: "Watch live",
     link: "https://www.facebook.com/homchapel?mibextid=ZbWKwL",
-    cardStyles: {
-      height: "400px",
-    },
-    flyerStyles: {
-      height: "200px",
-    },
+    // cardStyles: {
+    //   height: "400px",
+    // },
+    // flyerStyles: {
+    //   height: "200px",
+    // },
   },
   {
     id: 2,
-    flyer: event3,
+    flyer: event2,
     venue: "Mystery Temple",
     time: "06:00PM - 08:45PM",
     name: "Business Summit",
     liveStream: "Watch live",
     link: "https://www.facebook.com/homchapel?mibextid=ZbWKwL",
-    cardStyles: {
-      height: "400px",
-    },
-    flyerStyles: {
-      height: "200px",
-    },
+    // cardStyles: {
+    //   height: "400px",
+    // },
+    // flyerStyles: {
+    //   height: "200px",
+    // },
   },
   {
     id: 3,
-    flyer: event4,
+    flyer: event3,
     venue: "Mystery Temple",
     time: "08:00AM & 06:00PM",
     name: "2 Days Of Grace To Do Exploits",
     liveStream: "Watch live",
     link: "https://www.facebook.com/homchapel?mibextid=ZbWKwL",
-    cardStyles: {
-      height: "430px",
-    },
-    flyerStyles: {
-      height: "200px",
-    },
+    // cardStyles: {
+    //   height: "430px",
+    // },
+    // flyerStyles: {
+    //   height: "200px",
+    // },
   },
 ];
 

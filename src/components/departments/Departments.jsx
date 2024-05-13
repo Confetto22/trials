@@ -93,7 +93,7 @@ const Departments = () => {
             <i className="fa-regular fa-envelope"></i>
             mail to join
           </a>
-          <a href="#" id="join_call">
+          <a href="tel:233597127775" id="join_call">
             <i className="fa-solid fa-phone"></i> call to join
           </a>
         </div>
